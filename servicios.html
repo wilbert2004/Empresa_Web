@@ -1,285 +1,200 @@
-<!DOCTYPE html> 
-<html lang="es"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Nosotros - GlamBeauty</title> 
-<link rel="stylesheet" href="servicios.css" /> 
-</head> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - GlamBeauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicios.css">
+</head>
 
-<body> 
+<body>
 
-<!-- Barra de navegación -->
-<nav class="navbar"> 
-<ul class="nav-list"> 
-<li class="nav-item logo-item"> 
-<a href="index.html" aria-label="Inicio"> 
-<img src="assets/logo.webp" alt="Logo de la empresa" class="logo" /> 
-</a> 
-</li> 
-<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-<li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li> 
-<li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li> 
-<li class="nav-item"><a class="nav-link" href="contacto.html">Contactos</a></li> 
-</ul> 
-</nav> 
-
+<div id="navbar-container"></div>
 
 <main>
-<!-- HERO -->
-<section class="hero">
-    <h1>BEAUTY SALON</h1>
-    <p>Maquillaje profesional para eventos, novias y sesiones exclusivas.</p>
-</section>
 
-            <div class="hero-buttons">
-                <button class="btn-primary">Reservar ahora</button>
-                <button class="btn-secondary">Ver servicios</button>
+    <!-- HERO -->
+    <section class="hero">
+        <h1>GlamBeauty Studio</h1>
+        <p>Maquillaje profesional para eventos, novias y sesiones exclusivas.</p>
+        <div class="hero-buttons">
+            <button class="btn-primary">Reservar ahora</button>
+            <button class="btn-secondary">Ver servicios</button>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="servicios">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Servicios Exclusivos</h2>
+                <p>Opciones diseñadas para cada ocasión</p>
             </div>
-        </div>
-<!-- SERVICIOS -->
-<section class="servicios">
-    <div class="container">
 
-        <div class="section-header">
-            <h2>Servicios Exclusivos</h2>
-            <p>Opciones diseñadas para cada ocasión</p>
-        </div>
+            <div class="cards">
 
-        <div class="cards">
-
-            <!-- Card 1 -->
-            <div class="card">
-                <img src="assets/social.jpg" alt="Maquillaje Social">
-                <div class="card-content">
-                    <h3>Maquillaje Social</h3>
-                    <p class="subtitle">Ideal para eventos elegantes</p>
-
-                    <ul>
-                        <li>Duración: 60 - 90 minutos</li>
-                        <li>Incluye pestañas</li>
-                        <li>Acabado profesional</li>
-                    </ul>
-
-                    <div class="card-footer">
-                        <span>$500 MXN</span>
-                        <a href="#" class="btn">Reservar</a>
+                <div class="card">
+                    <img src="assets/social.jpg" alt="Maquillaje Social">
+                    <div class="card-content">
+                        <h3>Maquillaje Social</h3>
+                        <p class="subtitle">Ideal para eventos elegantes</p>
+                        <ul>
+                            <li>Duración: 60 - 90 minutos</li>
+                            <li>Incluye pestañas</li>
+                            <li>Acabado profesional</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span>$500 MXN</span>
+                            <a href="#" class="btn">Reservar</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 2 -->
-            <div class="card">
-                <img src="assets/novia.jpg" alt="Maquillaje de Novia">
-                <div class="card-content">
-                    <h3>Maquillaje de Novia</h3>
-                    <p class="subtitle">Servicio premium con prueba incluida</p>
-
-                    <ul>
-                        <li>Duración: 90 - 120 minutos</li>
-                        <li>Prueba incluida</li>
-                        <li>Alta duración y fotografía HD</li>
-                    </ul>
-
-                    <div class="card-footer">
-                        <span>$1500 MXN</span>
-                        <a href="#" class="btn">Reservar</a>
+                <div class="card">
+                    <img src="assets/novia.jpg" alt="Maquillaje de Novia">
+                    <div class="card-content">
+                        <h3>Maquillaje de Novia</h3>
+                        <p class="subtitle">Servicio premium con prueba incluida</p>
+                        <ul>
+                            <li>Duración: 90 - 120 minutos</li>
+                            <li>Prueba incluida</li>
+                            <li>Alta duración y fotografía HD</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span>$1500 MXN</span>
+                            <a href="#" class="btn">Reservar</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 3 -->
-            <div class="card">
-                <img src="assets/maquillaje3.jpg" alt="Maquillaje Glam">
-                <div class="card-content">
-                    <h3>Maquillaje Glam</h3>
-                    <p class="subtitle">Look impactante para noche</p>
-
-                    <ul>
-                        <li>Duración: 60 - 90 min</li>
-                        <li>Acabado brillante</li>
-                        <li>Ideal para eventos</li>
-                    </ul>
-
-                    <div class="card-footer">
-                        <span>$700 MXN</span>
-                        <a href="#" class="btn">Reservar</a>
+                <div class="card">
+                    <img src="assets/maquillaje3.jpg" alt="Maquillaje Glam">
+                    <div class="card-content">
+                        <h3>Maquillaje Glam</h3>
+                        <p class="subtitle">Look impactante para noche</p>
+                        <ul>
+                            <li>Duración: 60 - 90 min</li>
+                            <li>Acabado brillante</li>
+                            <li>Ideal para eventos</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span>$700 MXN</span>
+                            <a href="#" class="btn">Reservar</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 4 -->
-            <div class="card">
-                <img src="assets/natural.jpg" alt="Maquillaje Natural">
-                <div class="card-content">
-                    <h3>Maquillaje Natural</h3>
-                    <p class="subtitle">Estilo fresco y ligero</p>
-
-                    <ul>
-                        <li>Duración: 45 - 60 min</li>
-                        <li>Look natural</li>
-                        <li>Perfecto para día</li>
-                    </ul>
-
-                    <div class="card-footer">
-                        <span>$300 MXN</span>
-                        <a href="#" class="btn">Reservar</a>
+                <div class="card">
+                    <img src="assets/natural.jpg" alt="Maquillaje Natural">
+                    <div class="card-content">
+                        <h3>Maquillaje Natural</h3>
+                        <p class="subtitle">Estilo fresco y ligero</p>
+                        <ul>
+                            <li>Duración: 45 - 60 min</li>
+                            <li>Look natural</li>
+                            <li>Perfecto para día</li>
+                        </ul>
+                        <div class="card-footer">
+                            <span>$300 MXN</span>
+                            <a href="#" class="btn">Reservar</a>
+                        </div>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="galeria">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Trabajos Recientes</h2>
+                <p>Resultados reales de nuestras clientas</p>
+            </div>
+
+            <div class="galeria-grid">
+                <img src="assets/galeria1.jpg">
+                <img src="assets/galeria2.jpg">
+                <img src="assets/galeria3.jpg">
+                <img src="assets/galeria4.jpg">
+                <img src="assets/galeria5.jpg">
+                <img src="assets/galeria6.jpg">
+            </div>
+
+            <div class="galeria-btn">
+                <a href="#" class="btn-primary">Ver galería completa →</a>
             </div>
 
         </div>
+    </section>
 
-    </div>
-</section>
-<!-- GALERÍA -->
-<section class="galeria">
-    <div class="container">
+    <!-- TESTIMONIOS -->
+    <section class="testimonios">
+        <div class="container">
 
-        <div class="section-header">
-            <h2>Trabajos Recientes</h2>
-            <p>Resultados reales de nuestras clientas</p>
-        </div>
-
-        <div class="galeria-grid">
-
-            <div class="galeria-item">
-                <img src="assets/galeria1.jpg" alt="Maquillaje">
+            <div class="section-header">
+                <h2>Opiniones de Clientes</h2>
+                <p>Experiencias reales</p>
             </div>
 
-            <div class="galeria-item">
-                <img src="assets/galeria2.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria3.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria4.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria5.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria6.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria7.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria8.jpg" alt="Maquillaje">
-            </div>
-
-            <div class="galeria-item">
-                <img src="assets/galeria9.jpeg" alt="Maquillaje">
-            </div>
-
-        </div>
-
-        <!-- BOTÓN -->
-        <div class="galeria-btn">
-            <a href="#" class="btn-primary">Ver galería completa →</a>
-        </div>
-
-    </div>
-</section>
-
-<!-- TESTIMONIOS -->
-<section class="testimonios">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Opiniones de Clientes</h2>
-            <p>Experiencias reales</p>
-        </div>
-
-        <div class="testimonios-grid">
-
-            <div class="testimonio">
-                <div class="testimonio-header">
-                    <div class="avatar"></div>
-                    <div>
-                        <p>"No sé si maquillan o hacen experimentos."</p>
-                        <span>⭐ - Juanito</span>
-                    </div>
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <p>"Increíble servicio, maquillaje perfecto toda la noche."</p>
+                    <span>⭐⭐⭐⭐⭐ - Ana</span>
                 </div>
-            </div>
 
-            <div class="testimonio">
-                <div class="testimonio-header">
-                    <div class="avatar"></div>
-                    <div>
-                        <p>"Muy profesional… en decepcionar."</p>
-                        <span>⭐⭐⭐ - Pedro</span>
-                    </div>
+                <div class="testimonio">
+                    <p>"Muy profesional, super recomendado."</p>
+                    <span>⭐⭐⭐⭐⭐ - Laura</span>
                 </div>
-            </div>
 
-            <div class="testimonio">
-                <div class="testimonio-header">
-                    <div class="avatar"></div>
-                    <div>
-                        <p>"Ni mi ex me dejó así."</p>
-                        <span>⭐⭐⭐⭐⭐ - Joseluis</span>
-                    </div>
+                <div class="testimonio">
+                    <p>"Me encantó el resultado, volveré sin duda."</p>
+                    <span>⭐⭐⭐⭐⭐ - Sofía</span>
                 </div>
             </div>
 
         </div>
+    </section>
 
-    </div>
-</section>
+    <!-- SOBRE + CTA -->
+    <section class="sobre-cta">
+        <div class="container sobre-cta-grid">
 
+            <div class="sobre-box">
+                <h2>Sobre GlamBeauty</h2>
+                <p>
+                    Contamos con más de 5 años de experiencia en maquillaje profesional,
+                    ofreciendo servicios personalizados con productos de alta gama.
+                </p>
+            </div>
 
-<!-- SOBRE + CTA -->
-<section class="sobre-cta">
-    <div class="container sobre-cta-grid">
+            <div class="cta-box">
+                <h2>Agenda tu cita hoy</h2>
+                <p>Disponibilidad limitada esta semana</p>
+                <a href="#" class="btn-primary">Reservar ahora</a>
+            </div>
 
-        <!-- SOBRE -->
-        <div class="sobre-box">
-            <h2>Sobre BEAUTY SALON</h2>
-            <p>
-                Contamos con más de 5 años de experiencia en maquillaje profesional,
-                ofreciendo servicios personalizados con productos de alta gama.
-            </p>
-            <p class="extra">Instagram: @BEAUTYSALON</p>
         </div>
+    </section>
 
-        <!-- CTA -->
-        <div class="cta-box">
-            <h2>Agenda tu cita hoy</h2>
-            <p>Disponibilidad limitada esta semana</p>
-            <a href="#" class="btn-primary">Reservar ahora</a>
-        </div>
-
-    </div>
-</section>
-
+</main>
 
 <!-- FOOTER -->
 <footer class="footer">
     <div class="container footer-content">
-
-        <div class="footer-left">
-            <p>📍 Mérida, Yucatán</p>
-        </div>
-
-        <div class="footer-center">
-            <h3>BEAUTY SALON</h3>
-        </div>
-
-        <div class="footer-right">
-            <p>© 2024 BEAUTY SALON</p>
-        </div>
-
+        <h3>GlamBeauty</h3>
+        <p>Mérida, Yucatán</p>
+        <p>Instagram: @glambeauty</p>
+        <p>WhatsApp: 999 123 4567</p>
     </div>
 </footer>
 
+<script src="archivo.js" defer></script>
 
-</body> 
+</body>
 </html>

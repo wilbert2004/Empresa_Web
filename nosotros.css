@@ -4,47 +4,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar (igual que tu ejemplo) */
-.navbar {
-  background-color: #d63384;
-  padding: 0.75rem 1rem;
-}
-
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.logo-item {
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  border: 3px solid #ffffff;
-  object-fit: cover;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: white;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.nav-link:hover {
-  background-color: #111827;
-}
-
 /* Contenido */
 #sobre-nosotros {
   padding: 50px;
@@ -74,15 +33,4 @@ body {
   max-width: 500px;
   border-radius: 10px;
   margin-top: 20px;
-}
-
-/* Responsive */
-@media (min-width: 768px) {
-  .nav-list {
-    flex-direction: row;
-  }
-
-  .logo-item {
-    margin-right: auto;
-  }
 }
